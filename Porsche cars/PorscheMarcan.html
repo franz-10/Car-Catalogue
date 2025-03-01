@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche Marcan</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="item heading">
+            <h1>Porsche Marcan</h1>
+        </div>
+
+        <div class="item backbutton">
+            <a href="../Porsche.html">
+                <button>
+                    < Back
+                </button>
+            </a>
+        </div>
+
+        <div class="item image">
+            <img src="https://resources.formula-e.pulselive.com/photo-resources/2024/01/03/52ad7252-b552-4eb2-ae01-c57e85966151/Macan_Track_006.webp?width=1280&height=720"
+                alt="Porsche Marcan">
+        </div>
+
+        <div class="item stats">
+            <h1 style="font-size: 45px;">Stats:</h1>
+            <h1>Top Speed: 259 km/h</h1>
+            <h1>Weight: 1,920 kg</h1>
+            <h1>Engine: 2.9L twin-turbo V6</h1>
+            <h1>Acceleration (0–100 km/h): 4.6 seconds</h1>
+            <h1>Price: 60.000$</h1>
+        </div>
+    </div>
+
+    <style>
+        .container {
+            overflow: auto;
+        }
+
+        .heading {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            grid-column: 5 / 7;
+            grid-row: 1 / 2;
+        }
+
+        .backbutton {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .image{
+            grid-column: 2 / 6;
+            grid-row: 3 / 8;
+            text-align: center;
+        }
+
+        .stats {
+            grid-column: 6 / 11;
+            grid-row: 3 / 8;
+            padding-left: 15px;
+        }
+    </style>
+</body> 
+</html>

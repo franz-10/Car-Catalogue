@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW I8</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="item heading">
+            <h1>BMW I8</h1>
+        </div>
+
+        <div class="item backbutton">
+            <a href="../BMW.html">
+                <button>
+                    < Back
+                </button>
+            </a>
+        </div>
+
+        <div class="item image">
+            <img src="https://www.autozeitung.de/assets/field/image/bmw-i8-facelift-2018-7.jpg">
+
+        </div>
+
+        <div class="item stats">
+            <h1 style="font-size: 45px;">Stats:</h1>
+            <h1>Top speed: 293 km/h</h1>
+            <h1>Weight: 1,490 kg</h1>
+            <h1>Engine: 1.5L 3-cylinder turbocharged engine</h1>
+            <h1>Acceleration (0–100 km/h): 4.2 seconds</h1>
+            <h1>Price: 147.500$</h1>
+        </div>
+    </div>
+
+    <style>
+        .container {
+            overflow: auto;
+        }
+
+        .heading {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            grid-column: 5 / 7;
+            grid-row: 1 / 2;
+        }
+
+        .backbutton {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .image{
+            grid-column: 2 / 6;
+            grid-row: 3 / 8;
+            text-align: center;
+        }
+
+        .stats {
+            grid-column: 6 / 11;
+            grid-row: 3 / 8;
+            padding-left: 15px;
+        }
+    </style>
+</body> 
+</html>
